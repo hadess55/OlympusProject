@@ -2,7 +2,7 @@ import Swiper from "swiper/bundle";
 import "./bootstrap";
 import "flowbite";
 import "preline";
-
+// Carousel
 const carousel = document.getElementById("carouselSlides");
 const nextButton = document.getElementById("nextButton");
 const prevButton = document.getElementById("prevButton");
@@ -10,36 +10,58 @@ const prevButton = document.getElementById("prevButton");
 let currentIndex = 0;
 const totalSlides = carousel.children.length;
 
-// Fungsi untuk memperbarui posisi carousel
 function updateCarousel() {
-    const offset = -currentIndex * 100; // Menghitung posisi slide dalam persen
+    const offset = -currentIndex * 100;
     carousel.style.transform = `translateX(${offset}%)`;
 }
 
-// Fungsi untuk slide berikutnya
 function nextSlide() {
     currentIndex = (currentIndex + 1) % totalSlides;
     updateCarousel();
 }
-
-// Fungsi untuk slide sebelumnya
 function prevSlide() {
     currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
     updateCarousel();
 }
+let slideInterval = setInterval(nextSlide, 3000);
 
-// Interval otomatis
-let slideInterval = setInterval(nextSlide, 3000); // Ganti slide setiap 3 detik
-
-// Menambah event listener untuk tombol navigasi
 nextButton.addEventListener("click", () => {
-    clearInterval(slideInterval); // Hentikan otomatisasi saat pengguna mengklik
+    clearInterval(slideInterval);
     nextSlide();
-    slideInterval = setInterval(nextSlide, 3000); // Mulai kembali otomatisasi
+    slideInterval = setInterval(nextSlide, 3000);
 });
 
 prevButton.addEventListener("click", () => {
-    clearInterval(slideInterval); // Hentikan otomatisasi saat pengguna mengklik
+    clearInterval(slideInterval);
     prevSlide();
-    slideInterval = setInterval(nextSlide, 3000); // Mulai kembali otomatisasi
+    slideInterval = setInterval(nextSlide, 3000);
+});
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 32,
+    loop: true,
+    centeredSlides: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 32,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 32,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 32,
+        },
+    },
 });

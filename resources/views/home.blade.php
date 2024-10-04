@@ -156,7 +156,7 @@
     </div>
     <!-- End Slider -->
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
         <div class="relative overflow-hidden">
             <div id="carouselSlides" class="flex transition-transform duration-500">
                 <div class="min-w-full flex justify-center">
@@ -198,7 +198,7 @@
         <div class="flex flex-col justify-center p-4 text-right space-y-4 mr-5">
             <h2
                 class="text-4xl font-bold text-white animate-fade-in tracking-wide hover:text-purple-500 hover:scale-105 transition-transform duration-300 ease-in-out">
-                Buat Websitemu Responsif
+                Website Responsif
             </h2>
             <p
                 class="text-lg text-gray-300 leading-relaxed animate-fade-in-delayed hover:text-pink-500 hover:translate-y-1 transition-transform duration-300 ease-in-out">
@@ -207,9 +207,259 @@
                 doloremque.
             </p>
         </div>
-
-
     </div>
+
+    <section class="py-24 ">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mb-16 ">
+                <span
+                    class="text-lg text-gray-500 font-medium text-center block mb-2 leading-relaxed animate-fade-in-delayed hover:text-pink-500 hover:translate-y-1 transition-transform duration-300 ease-in-out">TESTIMONIAL</span>
+                <h2
+                    class="text-4xl text-center font-bold text-white animate-fade-in tracking-wide hover:text-purple-500 hover:scale-105 transition-transform duration-300 ease-in-out ">
+                    What our happy user says!</h2>
+            </div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper w-max">
+                    <div class="swiper-slide">
+                        <div
+                            class="group bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500  w-full mx-auto hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
+                            <div class="">
+                                <div class="flex items-center mb-7 gap-2 text-amber-500 transition-all duration-500  ">
+                                    <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <span class="text-base font-semibold text-indigo-600">4.9</span>
+                                </div>
+                                <p
+                                    class="text-base text-gray-600 leading-6  transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800">
+                                    Pagedone has made it possible for me to stay on top of my portfolio and make
+                                    informed
+                                    decisions
+                                    quickly and easily.
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
+                                <img class="rounded-full h-10 w-10 object-cover"
+                                    src="https://pagedone.io/asset/uploads/1696229969.png" alt="avatar" />
+                                <div class="block">
+                                    <h5 class="text-gray-900 font-medium transition-all duration-500  mb-1">Jane D</h5>
+                                    <span class="text-sm leading-4 text-gray-500">CEO </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div
+                            class="group bg-white border border-solid border-gray-300 flex justify-between flex-col rounded-xl p-6 transition-all duration-500  w-full mx-auto hover:border-indigo-600 slide_active:border-indigo-600 hover:shadow-sm">
+                            <div class="">
+                                <div class="flex items-center mb-7 gap-2 text-amber-500 transition-all duration-500  ">
+                                    <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <span class="text-base font-semibold text-indigo-600">4.9</span>
+                                </div>
+                                <p
+                                    class="text-base text-gray-600 leading-6  transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800">
+                                    Thanks to pagedone, I feel more informed and confident about my investment decisions
+                                    than
+                                    ever
+                                    before.
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-5 pt-5 border-t border-solid border-gray-200">
+                                <img class="rounded-full h-10 w-10 object-cover"
+                                    src="https://pagedone.io/asset/uploads/1696229994.png" alt="avatar" />
+                                <div class="block">
+                                    <h5 class="text-gray-900 font-medium transition-all duration-500  mb-1">Harsh P.
+                                    </h5>
+                                    <span class="text-sm leading-4 text-gray-500">Product Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div
+                            class=" flex justify-between flex-col lg:w-full group bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500  w-full mx-auto slide_active:border-indigo-600 hover:border-indigo-600 hover:shadow-sm">
+                            <div class="">
+                                <div class="flex items-center mb-7 gap-2 text-amber-500 transition-all duration-500  ">
+                                    <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <span class="text-base font-semibold text-indigo-600">4.9</span>
+                                </div>
+                                <p
+                                    class="text-base text-gray-600 leading-6  transition-all duration-500  pb-8 group-hover:text-gray-800 slide_active:text-gray-800">
+                                    The customer service team at pagedone went above and beyond to help me resolve a
+                                    billing
+                                    issue.
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
+                                <img class="rounded-full h-10 w-10 object-cover"
+                                    src="	https://pagedone.io/asset/uploads/1696230027.png" alt="avatar" />
+                                <div class="block">
+                                    <h5 class="text-gray-900 font-medium transition-all duration-500  mb-1">Alex K.
+                                    </h5>
+                                    <span class="text-sm leading-4 text-gray-500">Design Lead</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div
+                            class="group bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500  w-full mx-auto slide_active:border-indigo-600 hover:border-indigo-600 hover:shadow-sm">
+                            <div class="">
+                                <div class="flex items-center mb-7 gap-2 text-amber-500 transition-all duration-500  ">
+                                    <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <span class="text-base font-semibold text-indigo-600">4.9</span>
+                                </div>
+                                <p
+                                    class="text-base text-gray-600 leading-6  transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800">
+                                    Pagedone has made it possible for me to stay on top of my portfolio and make
+                                    informed
+                                    decisions
+                                    quickly and easily.
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
+                                <img class="rounded-full h-10 w-10 object-cover"
+                                    src="https://pagedone.io/asset/uploads/1696229969.png" alt="avatar" />
+                                <div class="block">
+                                    <h5 class="text-gray-900 font-medium transition-all duration-500  mb-1">Jane D</h5>
+                                    <span class="text-sm leading-4 text-gray-500">CEO </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div
+                            class="group bg-gray-200 border border-solid border-gray-300 flex justify-between flex-col rounded-xl p-6 transition-all duration-500  w-full mx-auto slide_active:border-indigo-600 hover:border-indigo-600 hover:shadow-sm ">
+                            <div class="">
+                                <div class="flex items-center mb-7 gap-2 text-amber-500 transition-all duration-500  ">
+                                    <svg class="w-5 h-5" viewBox="0 0 18 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.10326 1.31699C8.47008 0.57374 9.52992 0.57374 9.89674 1.31699L11.7063 4.98347C11.8519 5.27862 12.1335 5.48319 12.4592 5.53051L16.5054 6.11846C17.3256 6.23765 17.6531 7.24562 17.0596 7.82416L14.1318 10.6781C13.8961 10.9079 13.7885 11.2389 13.8442 11.5632L14.5353 15.5931C14.6754 16.41 13.818 17.033 13.0844 16.6473L9.46534 14.7446C9.17402 14.5915 8.82598 14.5915 8.53466 14.7446L4.91562 16.6473C4.18199 17.033 3.32456 16.41 3.46467 15.5931L4.15585 11.5632C4.21148 11.2389 4.10393 10.9079 3.86825 10.6781L0.940384 7.82416C0.346867 7.24562 0.674378 6.23765 1.4946 6.11846L5.54081 5.53051C5.86652 5.48319 6.14808 5.27862 6.29374 4.98347L8.10326 1.31699Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                    <span class="text-base font-semibold text-indigo-600">4.9</span>
+                                </div>
+                                <p
+                                    class="text-base text-gray-600 leading-6  transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800">
+                                    Thanks to pagedone, I feel more informed and confident about my investment decisions
+                                    than
+                                    ever
+                                    before.
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-5 pt-5 border-t border-solid border-gray-200">
+                                <img class="rounded-full h-10 w-10 object-cover"
+                                    src="https://pagedone.io/asset/uploads/1696229994.png" alt="avatar" />
+                                <div class="block">
+                                    <h5 class="text-gray-900 font-medium transition-all duration-500  mb-1">Harsh P.
+                                    </h5>
+                                    <span class="text-sm leading-4 text-gray-500">Product Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <h2
+        class="mx-10 text-center text-4xl font-bold text-white animate-fade-in tracking-wide hover:text-purple-500 hover:scale-105 transition-transform duration-300 ease-in-out">
+        Price
+    </h2>
+    <div class="max-w-8xl mx-auto p-6 rounded-lg shadow-lg">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-gray-800 p-6 rounded-lg space-y-4">
+                <h2 class="text-2xl font-bold text-white">Pricing built for all businesses.</h2>
+                <p class="text-gray-400">Best for large scale uses and extended redistribution rights.</p>
+                <ul class="space-y-2">
+                    <li class="flex items-center space-x-2">
+                        <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414L9 14.414l-3.707-3.707a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 00-1.414-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-300">A/B Testing</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414L9 14.414l-3.707-3.707a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 00-1.414-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-300">24/7 Chat Support</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414L9 14.414l-3.707-3.707a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 00-1.414-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-300">Custom Branding</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414L9 14.414l-3.707-3.707a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 00-1.414-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-300">Creative Assistant</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414L9 14.414l-3.707-3.707a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 00-1.414-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="text-gray-300">Website Builder</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div
+                class="bg-gray-700 p-6 rounded-lg flex flex-col justify-center items-center space-y-4 hover:scale-105 transform transition duration-300 ease-in-out">
+                <div class="text-gray-400">Make Website Start From</div>
+                <div class="text-6xl font-bold text-white">
+                    Rp. 300.000
+                </div>
+
+                <button
+                    class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300">
+                    Make Now
+                </button>
+                <a href="#" class="text-blue-400 hover:text-blue-600 transition-colors duration-300">
+                    Details →
+                </a>
+            </div>
+        </div>
+    </div>
+
 
 
 
