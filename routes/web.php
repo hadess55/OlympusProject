@@ -8,3 +8,9 @@ Route::get('/', function () {
 Route::get('/faq', function () {
     return view('faq');
 });
+Route::get('/contaq', function () {
+    return view('contaq');
+});
+Route::get('/services', function () {
+    return view('services');
+});
