@@ -1,3 +1,4 @@
+@section('title', 'Home')
 <x-layout>
     <section>
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
@@ -26,11 +27,11 @@
                     Speak to Sales
                 </a>
             </div>
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex relative group">
+            <div class="lg:mt-0 lg:col-span-5 lg:flex relative group">
                 <div
                     class="absolute inset-0 w-68 h-68 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-lg opacity-75 transition duration-300 ease-in-out group-hover:scale-110 group-hover:opacity-100">
                 </div>
-                <img src={{ asset('images/hero.png') }} alt="mockup"
+                <img src="{{ asset('images/hero.png') }}" alt="mockup"
                     class="relative z-10 opacity-90 transition-transform duration-300 ease-in-out group-hover:scale-105">
             </div>
         </div>
