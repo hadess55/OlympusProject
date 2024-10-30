@@ -129,7 +129,6 @@
                 </div>
             </div>
         </div>
-
         <button type="button"
             class="hs-carousel-prev hs-carousel-disabled:opacity-50 hs-carousel-disabled:pointer-events-none absolute inset-y-0 start-0 inline-flex justify-center items-center w-[46px] h-full text-gray-800 hover:bg-gray-800/10 focus:outline-none focus:bg-gray-800/10 rounded-s-lg">
             <span class="text-2xl" aria-hidden="true">
@@ -402,7 +401,7 @@
                                 d="M16.707 5.293a1 1 0 010 1.414L9 14.414l-3.707-3.707a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 00-1.414-1.414z"
                                 clip-rule="evenodd"></path>
                         </svg>
-                        <span class="text-gray-300">A/B Testing</span>
+                        <span class="text-gray-300">Responsif Website</span>
                     </li>
                     <li class="flex items-center space-x-2">
                         <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"
@@ -420,7 +419,7 @@
                                 d="M16.707 5.293a1 1 0 010 1.414L9 14.414l-3.707-3.707a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 00-1.414-1.414z"
                                 clip-rule="evenodd"></path>
                         </svg>
-                        <span class="text-gray-300">Custom Branding</span>
+                        <span class="text-gray-300">Custom Website</span>
                     </li>
                     <li class="flex items-center space-x-2">
                         <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"
@@ -429,7 +428,7 @@
                                 d="M16.707 5.293a1 1 0 010 1.414L9 14.414l-3.707-3.707a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 00-1.414-1.414z"
                                 clip-rule="evenodd"></path>
                         </svg>
-                        <span class="text-gray-300">Creative Assistant</span>
+                        <span class="text-gray-300">1 Mount Hosting</span>
                     </li>
                     <li class="flex items-center space-x-2">
                         <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"
@@ -447,7 +446,7 @@
                 class="bg-gray-700 p-6 rounded-lg flex flex-col justify-center items-center space-y-4 hover:scale-105 transform transition duration-300 ease-in-out">
                 <div class="text-gray-400">Make Website Start From</div>
                 <div class="text-6xl font-bold text-white">
-                    Rp. 300.000
+                    Rp. 500.000
                 </div>
 
                 <button
@@ -457,10 +456,11 @@
                 <a href="#" class="text-blue-400 hover:text-blue-600 transition-colors duration-300">
                     Details →
                 </a>
+
             </div>
+
         </div>
     </div>
-
 
 
 
