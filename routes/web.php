@@ -14,3 +14,6 @@ Route::get('/contaq', function () {
 Route::get('/services', function () {
     return view('services');
 });
+Route::get('/pricing', function () {
+    return view('pricing');
+});

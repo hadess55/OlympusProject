@@ -26,7 +26,7 @@
                     Speak to Sales
                 </a>
             </div>
-            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex relative group">
+            <div class="lg:mt-0 lg:col-span-5 lg:flex relative group">
                 <div
                     class="absolute inset-0 w-68 h-68 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full blur-lg opacity-75 transition duration-300 ease-in-out group-hover:scale-110 group-hover:opacity-100">
                 </div>
