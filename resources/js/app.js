@@ -2,6 +2,8 @@ import Swiper from "swiper/bundle";
 import "./bootstrap";
 import "flowbite";
 import "preline";
+import Alpine from 'alpinejs';
+
 // Carousel
 const carousel = document.getElementById("carouselSlides");
 const nextButton = document.getElementById("nextButton");
@@ -65,3 +67,7 @@ var swiper = new Swiper(".mySwiper", {
         },
     },
 });
+
+// alpine js
+window.Alpine = Alpine;
+Alpine.start();

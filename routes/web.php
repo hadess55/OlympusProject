@@ -17,3 +17,6 @@ Route::get('/services', function () {
 Route::get('/pricing', function () {
     return view('pricing');
 });
+Route::get('/admin', function () {
+    return view('admin.beranda');
+});
