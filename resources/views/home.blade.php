@@ -446,7 +446,7 @@
                 class="bg-gray-700 p-6 rounded-lg flex flex-col justify-center items-center space-y-4 hover:scale-105 transform transition duration-300 ease-in-out">
                 <div class="text-gray-400">Make Website Start From</div>
                 <div class="text-6xl font-bold text-white">
-                    Rp. 500.000
+                    Rp. 400.000
                 </div>
 
                 <button
