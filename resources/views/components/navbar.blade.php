@@ -67,7 +67,7 @@
         class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-gray-900 border-r overflow-y-auto">
         <div class="flex items-center mb-8">
             <a class="mr-auto text-3xl font-bold leading-none" href="{{ url('/') }}">
-                <img src={{ asset('images/logo2.png') }} class="object-cover h-9 w-auto" alt="">
+                <img src="{{ asset('images/logo2.png') }}" class="object-cover h-9 w-auto" alt="">
             </a>
             <button class="navbar-close">
                 <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg"
