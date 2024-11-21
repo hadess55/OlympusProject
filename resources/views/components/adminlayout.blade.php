@@ -9,21 +9,24 @@
     <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 
-<body class="bg-gray-100 text-gray-800">
+<body class="bg-gray-900">
 
     <div class="flex">
         <!-- Sidebar -->
         <x-app.sidebar />
-
-        <!-- Main Content -->
-        <div :class="minimized ? 'ml-20' : 'ml-64'" class="flex-1 transition-all duration-300">
-            <x-app.header />
-            <main class="p-6">
-                @yield('content')
-            </main>
-        </div>
-
     </div>
+
+    <!-- Main Content -->
+    <div class="flex-1 flex flex-col lg:ml-64">
+        <!-- Header -->
+        <x-app.header />
+        <!-- Main Content -->
+        <main class="flex-1">
+            {{ $slot }}
+        </main>
+    </div>
+
+
 
 </body>
 

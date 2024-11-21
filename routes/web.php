@@ -20,3 +20,12 @@ Route::get('/pricing', function () {
 Route::get('/admin', function () {
     return view('admin.beranda');
 });
+Route::get('/adminproject', function () {
+    return view('admin.project');
+});
+Route::get('/adminpricing', function () {
+    return view('admin.pricing');
+});
+Route::get('/admininbox', function () {
+    return view('admin.inbox');
+});

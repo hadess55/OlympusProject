@@ -4,7 +4,7 @@
         <!-- Dashboard actions -->
         <div class="sm:flex sm:justify-between sm:items-center mb-3">
             <!-- Left: Title -->
-            <h1 class="text-2xl md:text-3xl text-white dark:text-gray-100 font-bold">Dashboard</h1>
+            <h1 class="text-2xl md:text-3xl text-white dark:text-gray-100 font-bold">Project</h1>
         </div>
 
     </div>
